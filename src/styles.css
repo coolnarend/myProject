@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  content: "";
+}
+.breadcrumb a {
+  padding: 5px;
+  border: 1px solid #fff;
+  border-width: 1px 2px 2px 1px;
+  border-radius: 3px;
+}
+.breadcrumb a:hover {
+  text-decoration: none;
+}
+.breadcrumb .active a {
+  border-color: #007bff;
+}
+.datalist {
+  padding: 10px;
+  margin: 10px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.datalist li {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.message {
+  padding: 5px;
+  background-color: #fff;
+}

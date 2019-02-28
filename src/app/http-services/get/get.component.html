@@ -1,0 +1,19 @@
+<h3>
+    Get Data using HTTP Services:
+</h3>
+<p>
+  Getting User data from: '<a href='https://jsonplaceholder.typicode.com/users' target="_blank">https://jsonplaceholder.typicode.com/users</a>'
+</p>
+
+<button (click)="getData()">GET /products</button>
+
+<ul class='datalist'>
+  <li *ngFor='let user of users'>
+      <p>ID: {{user.id}}</p>
+      <p>Name: {{user.name}}</p>
+      <p>Username: {{user.username}}</p>
+      <p>Email: {{user.email}}</p>
+  </li>
+</ul>
+
+
